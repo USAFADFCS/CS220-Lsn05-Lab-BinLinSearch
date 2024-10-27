@@ -15,7 +15,7 @@ enum { NS_PER_SECOND = 1000000000 };
 * @param x value to search for
 * @return index of item found
 */
-int linear_search(unsigned long long int arr[], unsigned long long int n, unsigned long long int x);
+int linearSearch(unsigned long long int arr[], unsigned long long int n, unsigned long long int x);
 
 /**
 * @brief binary search of the given aray for the value
@@ -23,11 +23,11 @@ int linear_search(unsigned long long int arr[], unsigned long long int n, unsign
 * @param r right bound of the array
 * @return index of item found
 */
-int binary_search(unsigned long long int arr[], unsigned long long int l, unsigned long long int r, unsigned long long int x);
+int binarySearch(unsigned long long int arr[], unsigned long long int l, unsigned long long int r, unsigned long long int x);
 
 /**
 * @brief does some math on the time hacks to give number of seconds and nanoseconds
 * @param t1 first time hack
 * @param t2 second time hack
 */
-void sub_timespec(struct timespec t1, struct timespec t2, struct timespec* td);
+void subTimespec(struct timespec t1, struct timespec t2, struct timespec* td);
