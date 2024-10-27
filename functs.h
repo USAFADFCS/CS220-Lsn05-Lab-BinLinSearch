@@ -5,6 +5,8 @@
  * Project: Linear vs Binary Search (List ADT w/Array)
  * ===========================================================
  */
+#ifndef FUNCTS_H
+#define FUNCTS_H
 
 #define MAX_SIZE 2000000
 enum { NS_PER_SECOND = 1000000000 };
@@ -31,3 +33,5 @@ int binarySearch(unsigned long long int arr[], unsigned long long int l, unsigne
 * @param t2 second time hack
 */
 void subTimespec(struct timespec t1, struct timespec t2, struct timespec* td);
+
+#endif
