@@ -6,7 +6,7 @@
  * ===========================================================
  */
 #include <stdio.h>
-#include <sys/time.h>
+#include <time.h>
 #include "functs.h"
 
  int linearSearch(unsigned long long int arr[], unsigned long long int n, unsigned long long int x) {
