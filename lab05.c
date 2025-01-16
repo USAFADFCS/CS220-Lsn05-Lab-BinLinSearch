@@ -7,7 +7,6 @@
  */
 #include <stdio.h>
 #include <time.h>
-#include <linux/time.h> // comment this line out on Mac OS
 #include <stdlib.h>
 #include "functs.h"
 
